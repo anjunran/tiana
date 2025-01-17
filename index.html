@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Explore the inspiring text 'La corde à trois fils ne se rompt pas facilement' based on Ecclesiastes 4:12, with full features and interactive dark/light mode.">
+    <meta name="keywords"
+        content="Bible, Ecclesiastes, Inspiration, Spirituality, Dark Mode, Light Mode, Scripture, Community">
+    <meta name="author" content="Christian Resources">
+    <meta property="og:title" content="La corde à trois fils ne se rompt pas facilement">
+    <meta property="og:description"
+        content="Learn about the strength of unity and faith through Ecclesiastes 4:12 with a beautifully designed and interactive webpage.">
+    <meta property="og:image" content="https://via.placeholder.com/800x400.png?text=Bible+Quote">
+    <meta property="og:url" content="https://example.com/pelerins-d-esperance">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>La corde à trois fils - Inspiré d'Ecclésiaste 4:12</title>
+    <script src="https://kit.fontawesome.com/07433b07b9.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>La corde à trois fils ne se rompt pas facilement</h1>
+        <cite>Inspiré d'Ecclésiaste 4:12</cite>
+    </header>
+    <header>
+        <button class="toggle-theme" onclick="toggleTheme()">Switch Theme</button>
+    </header>
+    <div class="content">
+        <p>«&nbsp;Deux valent mieux qu’un, parce qu’ils retirent un bon salaire de leur travail. Car, s’ils tombent,
+            l’un relève son compagnon ; mais malheur à celui qui est seul et qui tombe, sans avoir un second pour le
+            relever ! De même, si deux couchent ensemble, ils auront chaud ; mais celui qui est seul, comment aura-t-il
+            chaud ? Et si quelqu’un est plus fort qu’un seul, les deux peuvent lui résister ; et la corde à trois fils
+            ne
+            se rompt pas facilement.&nbsp;» (Ecclésiaste 4:9-12)</p>
+        <p>La solidité d’une corde à trois brins était proverbiale dans tout le monde antique. La tresse à trois brins
+            semble bien faire allusion au couple, à ce miracle qu’est le troisième brin, Dieu, qui vient nouer les deux
+            premiers de manière inextricable, et leur donner une force qu’ils n’avaient pas encore. Deux faiblesses
+            unies
+            par Dieu font une corde que plus personne ne peut rompre.</p>
+        <p>Les avantages de la communion à deux sont renforcés par la communauté à trois ou à plusieurs. La Bible
+            rappelle
+            que l’homme est dépendant des relations sociales et qu’il n’est pas bon qu’il soit seul (Genèse 2:18).
+            Contrairement aux tendances à l’autarcie de l’homme moderne, les textes bibliques parlent de la dépendance
+            mutuelle.</p>
+        <iframe
+            src="https://www.youtube.com/embed/fAOZT2sO6Sw?si=NXrMevB6xIvl9Yd1&amp;clip=UgkxynISNqIx6HFNMs4h7s5mE2gu06Xkpug5&amp;clipt=EKuzBBiKiAg"
+            title="YouTube video player" allowfullscreen></iframe>
+    </div>
+    <footer>
+        <address>&copy; 2025 - Designed with <span style="color: red;">❤</span> by <a
+                href="https://example.com">Christian
+                Resources</a></address>
+    </footer>
+    <script>
+        function toggleTheme() {
+            const body = document.body;
+            const currentTheme = body.getAttribute('data-theme');
+            body.setAttribute('data-theme', currentTheme === 'dark' ? 'light' : 'dark');
+            if (body.getAttribute('data-theme') === 'dark') {
+                document.querySelector('.toggle-theme').innerHTML = '<i class="fa-solid fa-sun fa-spin"></i> Light';
+            } else {
+                document.querySelector('.toggle-theme').innerHTML = '<i class="fa-solid fa-moon fa-bounce"></i> Dark';
+            }
+        }
+        toggleTheme();
+    </script>
+</body>
+
+</html>
