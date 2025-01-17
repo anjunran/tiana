@@ -1,0 +1,37 @@
+{
+    "name": "La corde \u00e0 trois fils - Inspir\u00e9 d'Eccl\u00e9siaste 4:12",
+    "short_name": "Eccl\u00e9siaste 4:12",
+    "description": "Explore the inspiring text 'La corde \u00e0 trois fils ne se rompt pas facilement' based on Ecclesiastes 4:12, with full features and interactive dark/light mode.",
+    "start_url": "./",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#0044cc",
+    "icons": [
+        {
+            "src": "icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "author": "Christian Resources",
+    "keywords": [
+        "Bible",
+        "Ecclesiastes",
+        "Inspiration",
+        "Spirituality",
+        "Dark Mode",
+        "Light Mode",
+        "Scripture",
+        "Community"
+    ],
+    "og_title": "La corde \u00e0 trois fils ne se rompt pas facilement",
+    "og_description": "Learn about the strength of unity and faith through Ecclesiastes 4:12 with a beautifully designed and interactive webpage.",
+    "og_image": "https://chretiens.com/chretiens/2020/12/la-corde-a-trois-fils-ne-se-rompt-pas-facilement-ecclesiaste-412.jpg",
+    "og_url": "https://anjunran.github.io/tiana/",
+    "twitter_card": "summary_large_image"
+}
